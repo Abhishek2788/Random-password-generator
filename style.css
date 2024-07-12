@@ -32,11 +32,12 @@ html,body{
     box-shadow: 0 8px 32px 0 rgba(204, 241, 21, 0.37);
     backdrop-filter: blur( 6px );
     -webkit-backdrop-filter: blur( 6px );
-    border-radius: 10px;
+    border-radius: 10px 100px 10px 200px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 h2{
     font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(244, 176, 188);
 }
 .container .main .input-button{
     margin: 20px;
@@ -102,6 +103,7 @@ ul li .radio{
 }
 p{
     color: white;
+    font-size: 20px;
 }
 
 
@@ -136,6 +138,9 @@ p{
     .resultData{
         width: 95%;
         height: 30px;
+    }
+    p{
+        font-size: 16px;
     }
 }
 
